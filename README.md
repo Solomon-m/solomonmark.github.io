@@ -1,8 +1,7 @@
-
 ## Features
 
 - Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/blog/tailwindcss-v3) and primary color attribute
-- Near perfect lighthouse score - [Lighthouse report](https://www.webpagetest.org/result/210111_DiC1_08f3670c3430bf4a9b76fc3b927716c5/)
+- Near perfect lighthouse score - [Lighthouse report](https://www.webpagetest.org/result/221104_AiDc59_4WF/)
 - Lightweight, 45kB first load JS, uses Preact in production build
 - Mobile-friendly view
 - Light and dark theme
@@ -19,7 +18,7 @@
 - Blog templates
 - TOC component
 - Support for nested routing of blog posts
-- Newsletter component with support for mailchimp, buttondown, convertkit and klaviyo
+- Newsletter component with support for mailchimp, buttondown, convertkit, klaviyo, revue, and emailoctopus
 - Supports [giscus](https://github.com/laymonage/giscus), [utterances](https://github.com/utterance/utterances) or disqus
 - Projects page
 - Preconfigured security headers
@@ -36,16 +35,25 @@
 
 ## Quick Start Guide
 
-1. JS (official support)
+1. Try installing the starter using the new [Pliny project CLI](https://github.com/timlrx/pliny):
+
+```bash
+npm i -g @pliny/cli
+pliny new --template=starter-blog my-blog
+```
+
+It supports the updated version of the blog with Contentlayer, optional choice of TS/JS and different package managers as well as more modularized components which will be the basis of the template going forward.
+
+Alternatively to stick with the current version, TypeScript and Contentlayer:
+
+```bash
+npx degit 'timlrx/tailwind-nextjs-starter-blog#contentlayer'
+```
+
+or JS (official support)
 
 ```bash
 npx degit https://github.com/timlrx/tailwind-nextjs-starter-blog.git
-```
-
-or with TypeScript (community support)
-
-```bash
-npx degit timlrx/tailwind-nextjs-starter-blog#typescript
 ```
 
 2. Personalize `siteMetadata.js` (site related information)
@@ -117,7 +125,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 Frontmatter follows [Hugo's standards](https://gohugo.io/content-management/front-matter/).
 
-Currently 10 fields are supported.
+Currently 7 fields are supported.
 
 ```
 title (required)
@@ -160,15 +168,15 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 **Vercel**  
 The easiest way to deploy the template is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-**Netlify / GitHub Pages / Firebase etc.**  
-As the template uses `next/image` for image optimization, additional configurations have to be made to deploy on other popular static hosting websites like [Netlify](https://www.netlify.com/) or [GitHub Pages](https://pages.github.com/). An alternative image optimization provider such as Imgix, Cloudinary or Akamai has to be used. Alternatively, replace the `next/image` component with a standard `<img>` tag. See [`next/image` documentation](https://nextjs.org/docs/basic-features/image-optimization) for more details.
+**Netlify**
+[Netlify](https://www.netlify.com/)’s Next.js runtime configures enables key Next.js functionality on your website without the need for additional configurations. Netlify generates serverless functions that will handle Next.js functionalities such as server-side rendered (SSR) pages, incremental static regeneration (ISR), `next/images`, etc.
+
+See [Next.js on Netlify](https://docs.netlify.com/integrations/frameworks/next-js/overview/#next-js-runtime) for suggested configuration values and more details.
+
+**GitHub Pages / Firebase etc.**  
+As the template uses `next/image` for image optimization, additional configurations have to be made to deploy on other popular static hosting websites like [Firebase](https://firebase.google.com/) or [GitHub Pages](https://pages.github.com/). An alternative image optimization provider such as Imgix, Cloudinary or Akamai has to be used. Alternatively, replace the `next/image` component with a standard `<img>` tag. See [`next/image` documentation](https://nextjs.org/docs/basic-features/image-optimization) for more details.
 
 The API routes used in the newsletter component cannot be used in a static site export. You will need to use a form API endpoint provider and substitute the route in the newsletter component accordingly. Other hosting platforms such as Netlify also offer alternative solutions - please refer to their docs for more information.
 
-## Support
-
-Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
-
-## Licence
-
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/master/LICENSE) © [Timothy Lin](https://www.timrlx.com)
+**Google App Engine**
+Apart from changes mentioned above for `next/image`, configurations should be changed based on recommendations [here](https://github.com/vercel/next.js/discussions/12474#discussioncomment-17844) in order to set up the project for GAE deployment.
