@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "next start -p 8080",
+    "start": "next dev",
     "dev": "INIT_CWD=$PWD next dev",
     "build": "INIT_CWD=$PWD next build && cross-env NODE_OPTIONS='--experimental-json-modules' node -r esbuild-register ./scripts/postbuild.mjs",
     "serve": "next start",
