@@ -1,79 +1,5 @@
 {
   "cacheItemsMap": {
-    "authors/default.mdx": {
-      "document": {
-        "name": "Solomon Mark",
-        "avatar": "/static/images/avatar.png",
-        "occupation": "FullStack Developer",
-        "company": "FullCreative",
-        "email": "slmnmark@gmail.com",
-        "twitter": "https://twitter.com/Twitter",
-        "linkedin": "https://www.linkedin.com",
-        "github": "https://github.com",
-        "body": {
-          "raw": "\nSolomon Mark is a FullStack developer at FullCreative. Works on Javascript, Java, GCP and AWS. ",
-          "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of d(e))!v.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(i=u(e,a))||i.enumerable});return t};var w=(t,e,n)=>(n=t!=null?p(k(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>c(o({},\"__esModule\",{value:!0}),t);var l=g((_,s)=>{s.exports=_jsx_runtime});var M={};h(M,{default:()=>C,frontmatter:()=>f});var r=w(l()),f={name:\"Solomon Mark\",avatar:\"/static/images/avatar.png\",occupation:\"FullStack Developer\",company:\"FullCreative\",email:\"slmnmark@gmail.com\",twitter:\"https://twitter.com/Twitter\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com\"};function m(t){let e=Object.assign({p:\"p\"},t.components);return(0,r.jsx)(e.p,{children:\"Solomon Mark is a FullStack developer at FullCreative. Works on Javascript, Java, GCP and AWS.\"})}function j(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,Object.assign({},t,{children:(0,r.jsx)(m,t)})):m(t)}var C=j;return x(M);})();\n;return Component;"
-        },
-        "_id": "authors/default.mdx",
-        "_raw": {
-          "sourceFilePath": "authors/default.mdx",
-          "sourceFileName": "default.mdx",
-          "sourceFileDir": "authors",
-          "contentType": "mdx",
-          "flattenedPath": "authors/default"
-        },
-        "type": "Authors",
-        "readingTime": {
-          "text": "1 min read",
-          "minutes": 0.075,
-          "time": 4500,
-          "words": 15
-        },
-        "slug": "default",
-        "path": "authors/default",
-        "filePath": "authors/default.mdx",
-        "toc": []
-      },
-      "documentHash": "1671553352941",
-      "hasWarnings": false,
-      "documentTypeName": "Authors"
-    },
-    "authors/sparrowhawk.mdx": {
-      "document": {
-        "name": "Sparrow Hawk",
-        "avatar": "/static/images/sparrowhawk-avatar.jpg",
-        "occupation": "Wizard of Earthsea",
-        "company": "Earthsea",
-        "twitter": "https://twitter.com/sparrowhawk",
-        "linkedin": "https://www.linkedin.com/sparrowhawk",
-        "body": {
-          "raw": "\nAt birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\n\nThe witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.\n",
-          "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of l(t))!u.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(p(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var w=f((G,h)=>{h.exports=_jsx_runtime});var y={};g(y,{default:()=>v,frontmatter:()=>x});var a=b(w()),x={name:\"Sparrow Hawk\",avatar:\"/static/images/sparrowhawk-avatar.jpg\",occupation:\"Wizard of Earthsea\",company:\"Earthsea\",twitter:\"https://twitter.com/sparrowhawk\",linkedin:\"https://www.linkedin.com/sparrowhawk\"};function c(e){let t=Object.assign({p:\"p\"},e.components);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.p,{children:\"At birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\"}),(0,a.jsx)(t.p,{children:'The witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.'})]})}function j(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,Object.assign({},e,{children:(0,a.jsx)(c,e)})):c(e)}var v=j;return k(y);})();\n;return Component;"
-        },
-        "_id": "authors/sparrowhawk.mdx",
-        "_raw": {
-          "sourceFilePath": "authors/sparrowhawk.mdx",
-          "sourceFileName": "sparrowhawk.mdx",
-          "sourceFileDir": "authors",
-          "contentType": "mdx",
-          "flattenedPath": "authors/sparrowhawk"
-        },
-        "type": "Authors",
-        "readingTime": {
-          "text": "1 min read",
-          "minutes": 0.63,
-          "time": 37800,
-          "words": 126
-        },
-        "slug": "sparrowhawk",
-        "path": "authors/sparrowhawk",
-        "filePath": "authors/sparrowhawk.mdx",
-        "toc": []
-      },
-      "documentHash": "1667728279000",
-      "hasWarnings": false,
-      "documentTypeName": "Authors"
-    },
     "blog/code-sample.mdx": {
       "document": {
         "title": "Sample .md file",
@@ -779,6 +705,80 @@
       "documentHash": "1667728279000",
       "hasWarnings": false,
       "documentTypeName": "Blog"
+    },
+    "authors/default.mdx": {
+      "document": {
+        "name": "Solomon Mark",
+        "avatar": "/static/images/avatar.png",
+        "occupation": "FullStack Developer",
+        "company": "FullCreative",
+        "email": "slmnmark@gmail.com",
+        "twitter": "https://twitter.com/Twitter",
+        "linkedin": "https://www.linkedin.com",
+        "github": "https://github.com",
+        "body": {
+          "raw": "\nSolomon Mark is a FullStack developer at FullCreative. Works on Javascript, Java, GCP and AWS. ",
+          "code": "var Component=(()=>{var p=Object.create;var o=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var k=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var g=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),h=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of d(e))!v.call(t,a)&&a!==n&&o(t,a,{get:()=>e[a],enumerable:!(i=u(e,a))||i.enumerable});return t};var w=(t,e,n)=>(n=t!=null?p(k(t)):{},c(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),x=t=>c(o({},\"__esModule\",{value:!0}),t);var l=g((_,s)=>{s.exports=_jsx_runtime});var M={};h(M,{default:()=>C,frontmatter:()=>f});var r=w(l()),f={name:\"Solomon Mark\",avatar:\"/static/images/avatar.png\",occupation:\"FullStack Developer\",company:\"FullCreative\",email:\"slmnmark@gmail.com\",twitter:\"https://twitter.com/Twitter\",linkedin:\"https://www.linkedin.com\",github:\"https://github.com\"};function m(t){let e=Object.assign({p:\"p\"},t.components);return(0,r.jsx)(e.p,{children:\"Solomon Mark is a FullStack developer at FullCreative. Works on Javascript, Java, GCP and AWS.\"})}function j(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,Object.assign({},t,{children:(0,r.jsx)(m,t)})):m(t)}var C=j;return x(M);})();\n;return Component;"
+        },
+        "_id": "authors/default.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/default.mdx",
+          "sourceFileName": "default.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/default"
+        },
+        "type": "Authors",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.075,
+          "time": 4500,
+          "words": 15
+        },
+        "slug": "default",
+        "path": "authors/default",
+        "filePath": "authors/default.mdx",
+        "toc": []
+      },
+      "documentHash": "1671553352941",
+      "hasWarnings": false,
+      "documentTypeName": "Authors"
+    },
+    "authors/sparrowhawk.mdx": {
+      "document": {
+        "name": "Sparrow Hawk",
+        "avatar": "/static/images/sparrowhawk-avatar.jpg",
+        "occupation": "Wizard of Earthsea",
+        "company": "Earthsea",
+        "twitter": "https://twitter.com/sparrowhawk",
+        "linkedin": "https://www.linkedin.com/sparrowhawk",
+        "body": {
+          "raw": "\nAt birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\n\nThe witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.\n",
+          "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var l=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,u=Object.prototype.hasOwnProperty;var f=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),g=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of l(t))!u.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=m(t,r))||s.enumerable});return e};var b=(e,t,n)=>(n=e!=null?d(p(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),k=e=>i(o({},\"__esModule\",{value:!0}),e);var w=f((G,h)=>{h.exports=_jsx_runtime});var y={};g(y,{default:()=>v,frontmatter:()=>x});var a=b(w()),x={name:\"Sparrow Hawk\",avatar:\"/static/images/sparrowhawk-avatar.jpg\",occupation:\"Wizard of Earthsea\",company:\"Earthsea\",twitter:\"https://twitter.com/sparrowhawk\",linkedin:\"https://www.linkedin.com/sparrowhawk\"};function c(e){let t=Object.assign({p:\"p\"},e.components);return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.p,{children:\"At birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\"}),(0,a.jsx)(t.p,{children:'The witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.'})]})}function j(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,Object.assign({},e,{children:(0,a.jsx)(c,e)})):c(e)}var v=j;return k(y);})();\n;return Component;"
+        },
+        "_id": "authors/sparrowhawk.mdx",
+        "_raw": {
+          "sourceFilePath": "authors/sparrowhawk.mdx",
+          "sourceFileName": "sparrowhawk.mdx",
+          "sourceFileDir": "authors",
+          "contentType": "mdx",
+          "flattenedPath": "authors/sparrowhawk"
+        },
+        "type": "Authors",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.63,
+          "time": 37800,
+          "words": 126
+        },
+        "slug": "sparrowhawk",
+        "path": "authors/sparrowhawk",
+        "filePath": "authors/sparrowhawk.mdx",
+        "toc": []
+      },
+      "documentHash": "1667728279000",
+      "hasWarnings": false,
+      "documentTypeName": "Authors"
     },
     "blog/nested-route/introducing-multi-part-posts-with-nested-routing.mdx": {
       "document": {
